@@ -11,7 +11,7 @@ import Web3Modal from "web3modal";
 import tokenABI from "../../artifacts/erc20.json";
 import escrowABI from "../../artifacts/escrow.json";
 import { escrowAddress } from "../../config2";
-const tokenAddress = "0x10Eb05edeA0F1d0dB7907d23541607F07CC6c35E"
+const tokenAddress = "0x179c44B91554AD48745f28dd539Ae558d4f1c3b1"
 
 const TokenForm = () => {
   const navigate = useRouter();
@@ -77,7 +77,7 @@ const TokenForm = () => {
   return (
     <Box as="section"  sx={styles.section}>
             <div className="bg-purple-100 text-4xl text-center text-black font-bold pt-10">
-        <h1> Create Pool PST Token</h1>
+        <h1> Create Pool SAL Token</h1>
       </div>
       
       <div className="flex justify-center bg-purple-100">
@@ -107,7 +107,7 @@ const TokenForm = () => {
           </div>
 
           <button type="button" onClick={(e) => sendTxToBlockchain()} className="font-bold mt-20 bg-purple-700 text-white text-2xl rounded p-4 shadow-lg">
-            Create Pool PST Token
+            Create Pool SAL Token
           </button>
         </div>
       </div>

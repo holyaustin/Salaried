@@ -16,6 +16,10 @@ module.exports = {
     config.resolve.fallback = { fs: false };
     return config;
   },
-
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  trailingSlash: true,
 
 };

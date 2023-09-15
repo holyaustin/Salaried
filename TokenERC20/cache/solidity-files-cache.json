@@ -1,0 +1,70 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/augustine/Dapps/2023/Sep2023/Salaried/TokenERC20/contracts/TokenERC20.sol": {
+      "lastModificationDate": 1694787915971,
+      "contentHash": "40f4e7893b1aabcf5471d4772b05dd2c",
+      "sourceName": "contracts/TokenERC20.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControl",
+        "AccessControlEnumerable",
+        "Context",
+        "ERC165",
+        "ERC20",
+        "ERC20Burnable",
+        "ERC20Pausable",
+        "EnumerableSet",
+        "IAccessControl",
+        "IAccessControlEnumerable",
+        "IERC165",
+        "IERC20",
+        "IERC20Metadata",
+        "Pausable",
+        "Strings",
+        "TokenERC20"
+      ]
+    }
+  }
+}
